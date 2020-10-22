@@ -29,6 +29,8 @@ requirements:
     - python
     - {{ pin_compatible('numpy') }}
     - openjdk
+  run_constrained:
+    - javabridge ==9999999999
 
 test:
   imports:
